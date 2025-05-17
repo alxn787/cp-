@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Active File",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}", 
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "C/C++: g++-14 build active file"
+        }
+    ]
+}
